@@ -1,0 +1,67 @@
+body{
+
+    background-color: rgb(241, 245, 246);
+
+}
+
+header div{
+    display: flex;
+    font-size:15px ;
+    justify-content: center;
+   
+}
+
+#banniere{
+    background-image:url("../REA 2 HTML CSS/bannièrepoischicheNB2.jpg");
+    opacity:0.33;
+    height: 60px;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+h6{
+    top:0px; 
+    text-align: center;
+    justify-content: center;
+    font-size:15px ;
+    color: navy;
+}
+
+
+#logo{
+
+    height:200px;
+    width: 200px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding: 25px;
+    justify-items:center;
+}
+
+nav li{
+
+    list-style: none;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.a:visited{
+    color:grey;
+} 
+
+.a:link{
+    color:#125ca18e; 
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 20px;
+}

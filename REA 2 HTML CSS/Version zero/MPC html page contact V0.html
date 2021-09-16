@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de contact</title>
+    <link rel="stylesheet" href="contactcss.css">
+</head>
+<body id="bodycontact">
+    <header>
+        <nav>
+            <div><img src="imagedebannière" alt="bannière"></div>
+            <div class="logo_nav"><a href="Accueil.html">Accueil</a></div>
+            <div class="logo_nav"><a href="Recettes">Recettes</a></div>
+            <div class="logo_nav"><a href="Foodtruck">Foodtruck</a></div>
+            <div class="logo_nav"><a href="Qui nous sommes">Qui nous sommes</a></div>
+            <div class="logo_nav"><a href="Contact.html">Contact</a></div>   
+        </nav>
+    </header>     
+    </header>
+    <h1>CONTACTEZ NOUS</h1>
+    <form action="POST" action="form.php">
+        <div> 
+            <label for="nom">Nom<span class="star">*<span class="onstar"></span></span></label>
+            <input type="text" placeholder="Nom" required>
+        </div>
+        <div>
+            <label for="prenom">Prénom<span class="star">*<span class="onstar"></span></span></label>
+            <input type="text" placeholder="Prénom" required>
+        </div>
+
+        <div>
+            <label for="mail">Email<span class="star">*<span class="onstar"></span></span></label>
+            <input type="email" name="mail" id="mail" required placeholder="votreadressemail@mail.com">
+        </div>
+
+        <div>
+            <label for="liste">Motifs<span class="star">*<span class="onstar"></span></span></label>
+            <select name="liste" id="liste">
+                <option value="recettes"> Recettes </option>
+                <option value="Foodtruck">Foodtruck</option>
+                <option value="Traiteur">Traiteur</option>
+                <option value="Partenariat">Partenariat</option>
+               
+            </select>    
+        </div>
+ 
+        <div>
+            <label for="message">Message :</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <!-- A déterminer si envoi d'une copie du message part mail 
+        <div>
+            <input type="checkbox" name="cond" id="cond" required><label for="checkbox">Envoie d'une copie du message par mail </label>
+
+        </div>-->
+
+        <div>
+            <input type="submit" value="Envoyer">
+        </div>
+
+        <div>
+            <label for="star">* ce champ est obligatoire</label>
+        </div>
+    </form>
+    
+</body>
+</html>
