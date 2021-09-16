@@ -5795,7 +5795,7 @@
 															"top": 143,
 															"width": 140.87353515625,
 															"height": 13,
-															"text": "selectionner le module"
+															"text": "sélection du module"
 														},
 														{
 															"_type": "LabelView",
@@ -6735,8 +6735,8 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 890,
-													"top": 244,
+													"left": 904,
+													"top": 241,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 15,
@@ -6756,8 +6756,8 @@
 													},
 													"visible": null,
 													"font": "Arial;13;0",
-													"left": 901,
-													"top": 255,
+													"left": 917,
+													"top": 248,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 30,
@@ -6777,8 +6777,8 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 869,
-													"top": 223,
+													"left": 877,
+													"top": 226,
 													"height": 13,
 													"alpha": -1.5707963267948966,
 													"distance": 15,
@@ -6796,7 +6796,7 @@
 												"$ref": "AAAAAAF7zsep2M1BQZI="
 											},
 											"lineStyle": 1,
-											"points": "887:233;873:247",
+											"points": "895:233;887:247",
 											"showVisibility": true,
 											"nameLabel": {
 												"$ref": "AAAAAAF749PzLkNVqoI="
@@ -7205,8 +7205,8 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 681,
-													"top": 299,
+													"left": 680,
+													"top": 300,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 15,
@@ -7226,8 +7226,8 @@
 													},
 													"visible": null,
 													"font": "Arial;13;0",
-													"left": 683,
-													"top": 314,
+													"left": 682,
+													"top": 315,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 30,
@@ -7247,8 +7247,8 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 676,
-													"top": 270,
+													"left": 677,
+													"top": 271,
 													"height": 13,
 													"alpha": -1.5707963267948966,
 													"distance": 15,
@@ -7266,7 +7266,7 @@
 												"$ref": "AAAAAAF7zseTnM0oi/o="
 											},
 											"lineStyle": 1,
-											"points": "783:277;575:305",
+											"points": "783:279;575:305",
 											"showVisibility": true,
 											"nameLabel": {
 												"$ref": "AAAAAAF749TvcEOqky0="
@@ -7338,9 +7338,9 @@
 															"font": "Arial;13;1",
 															"left": 789,
 															"top": 255,
-															"width": 127.892578125,
+															"width": 171.24072265625,
 															"height": 13,
-															"text": "Afficher page \"frigo\""
+															"text": "Affichage de la page \"frigo\""
 														},
 														{
 															"_type": "LabelView",
@@ -7373,7 +7373,7 @@
 													"font": "Arial;13;0",
 													"left": 784,
 													"top": 248,
-													"width": 137.892578125,
+													"width": 181.24072265625,
 													"height": 25,
 													"stereotypeLabel": {
 														"$ref": "AAAAAAF7zseTnc0q3nc="
@@ -7396,7 +7396,7 @@
 											"containerChangeable": true,
 											"left": 784,
 											"top": 248,
-											"width": 137.892578125,
+											"width": 181.24072265625,
 											"height": 41,
 											"nameCompartment": {
 												"$ref": "AAAAAAF7zseTnc0pbHM="
@@ -7526,7 +7526,7 @@
 											"_parent": {
 												"$ref": "AAAAAAF7zrb0BczlAqI="
 											},
-											"name": "selectionner le module"
+											"name": "sélection du module"
 										},
 										{
 											"_type": "UMLAction",
@@ -7600,7 +7600,7 @@
 											"_parent": {
 												"$ref": "AAAAAAF7zrdqVMzvHn4="
 											},
-											"name": "Afficher page \"frigo\""
+											"name": "Affichage de la page \"frigo\""
 										}
 									]
 								},

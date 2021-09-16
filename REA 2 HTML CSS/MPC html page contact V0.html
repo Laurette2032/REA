@@ -22,21 +22,21 @@
     <h1>CONTACTEZ NOUS</h1>
     <form action="POST" action="form.php">
         <div> 
-            <label for="nom">Nom<span class="star">*<span class="onstar">Champ obligatoire</span></span></label>
+            <label for="nom">Nom<span class="star">*<span class="onstar"></span></span></label>
             <input type="text" placeholder="Nom" required>
         </div>
         <div>
-            <label for="prenom">Prénom<span class="star">*<span class="onstar">Champ obligatoire</span></span></label>
+            <label for="prenom">Prénom<span class="star">*<span class="onstar"></span></span></label>
             <input type="text" placeholder="Prénom" required>
         </div>
 
         <div>
-            <label for="mail">Email<span class="star">*<span class="onstar">Champ obligatoire</span></span></label>
+            <label for="mail">Email<span class="star">*<span class="onstar"></span></span></label>
             <input type="email" name="mail" id="mail" required placeholder="votreadressemail@mail.com">
         </div>
 
         <div>
-            <label for="liste">Motifs<span class="star">*<span class="onstar">Champ obligatoire</span></span></label>
+            <label for="liste">Motifs<span class="star">*<span class="onstar"></span></span></label>
             <select name="liste" id="liste">
                 <option value="recettes"> Recettes </option>
                 <option value="Foodtruck">Foodtruck</option>
@@ -59,6 +59,10 @@
 
         <div>
             <input type="submit" value="Envoyer">
+        </div>
+
+        <div>
+            <label for="star">* ce champ est obligatoire</label>
         </div>
     </form>
     
