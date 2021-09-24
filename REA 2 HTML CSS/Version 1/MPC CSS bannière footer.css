@@ -12,10 +12,9 @@ header div{
 }
 
 #banniere{
-    background-image:url("../REA 2 HTML CSS/bannièrepoischicheNB2.jpg");
+    background-image:url("C:\Users\Laure COSTA\Documents\GitHub\REA\REA 2 HTML CSS\image\bannièrepoischicheNB2.jpg");
     opacity:0.33;
-    height: 60px;
-    border: black solid 1px;
+    height: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -31,8 +30,8 @@ h6{
 
 #logo{
 
-    height:200px;
-    width: 200px;
+    height:150px;
+    width: 150px;
 }
 
 nav{
