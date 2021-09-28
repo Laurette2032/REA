@@ -411,9 +411,9 @@
 												"$ref": "AAAAAAF75DFA2t1S748="
 											},
 											"font": "Arial;13;0",
-											"left": 32.72998046875,
+											"left": 30.55908203125,
 											"top": 13,
-											"width": 141.18798828125,
+											"width": 128.06103515625,
 											"height": 13,
 											"text": "SequenceDiagram frigo "
 										},
@@ -426,7 +426,7 @@
 											"font": "Arial;13;1",
 											"left": 13,
 											"top": 13,
-											"width": 14.72998046875,
+											"width": 12.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -3044,6 +3044,19 @@
 									"activation": {
 										"$ref": "AAAAAAF76GShf0Zhl84="
 									}
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAF8K4EroVXzl/0=",
+									"_parent": {
+										"$ref": "AAAAAAF75HzImZpAvJk="
+									},
+									"font": "Arial;13;0",
+									"left": 1264,
+									"top": 56,
+									"width": 209,
+									"height": 98,
+									"text": "5 + 10 Scénario d'erreur \nErreur du serveur de la BDD \nInformation d'erreur de connxion de la BDD \nAffichage d'un message d'erreur\nFin du scénario"
 								}
 							]
 						}
