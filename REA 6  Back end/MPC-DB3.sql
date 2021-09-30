@@ -1,0 +1,1 @@
+drop database mpc_db; 
