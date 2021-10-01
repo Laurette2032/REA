@@ -64,8 +64,9 @@ url_photo text
 );
 
 create table `include`(
+number_order bigint ,
 id_user bigint, 
-id_menu bigint, 
-number_order bigint
+id_menu bigint
+
 
 );
