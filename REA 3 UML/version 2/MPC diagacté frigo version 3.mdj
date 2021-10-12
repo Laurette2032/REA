@@ -1229,8 +1229,8 @@
 										"$ref": "AAAAAAF75DFA2d1R9VU="
 									},
 									"font": "Arial;13;0",
-									"left": 1088,
-									"top": 128,
+									"left": 896,
+									"top": 96,
 									"width": 329,
 									"height": 121,
 									"text": "5 Scénario d'erreur \nLe serveur de la BDD ne répond pas \n5.1 Message d'erreur: impossible de se connecter (BDD vers serveur)\n5.2 Affichage d'un message d'erreur à l'attention de l'utilisateur qu'il y a un échec de connexion => Fin du scénario\n"
@@ -1242,8 +1242,8 @@
 										"$ref": "AAAAAAF75DFA2d1R9VU="
 									},
 									"font": "Arial;13;0",
-									"left": 1088,
-									"top": 304,
+									"left": 896,
+									"top": 288,
 									"width": 329,
 									"height": 121,
 									"text": "6 Scénario alternatif en cas d'erreur de saisie ou d'absence de corrélation entre les ingrédients\n6.1 Affichage que les informations saisies sont incorrectes ou qu'il n'y a pas de correspondance +\nInvitation à modifier la saisie \n6.2 Correction par l'utilisateur et passage l'affichage du résultat "
