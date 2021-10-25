@@ -1234,7 +1234,7 @@
 									"top": 32,
 									"width": 233,
 									"height": 85,
-									"text": "4 Scénario d'erreur \nerreur du serveur de BDD\n4.1 renvoi d'un message d'erreur \n4.2 affichage d'un message d'erreur \nfin du processus"
+									"text": "4 Scénario d'erreur \nerreur du serveur de BDD\n4.1 renvoi d'un message d'erreur \n4.2 affichage d'un message d'erreur \nfin du scénario nominal"
 								},
 								{
 									"_type": "UMLNoteView",
@@ -1247,7 +1247,7 @@
 									"top": 152,
 									"width": 289,
 									"height": 115,
-									"text": "6 scénario alternatif si il n'y a pas de correspondance entre ingrédient recette\n6.1  envoi d'un message d'erreur  + demande de sélection différente \n6.2 modification de la saisie des ingrédients  \nreprise du scénario normal \n\n\n"
+									"text": "6 scénario alternatif si il n'y a pas de correspondance entre ingrédient et recette\n6.1  envoi d'un message d'erreur  + demande de sélection différente  retour point 3\n6.2 modification de la saisie des ingrédients  \nreprise du scénario normal \n\n\n"
 								}
 							]
 						}
