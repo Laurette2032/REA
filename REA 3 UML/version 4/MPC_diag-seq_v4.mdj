@@ -473,7 +473,7 @@
 												"$ref": "AAAAAAF75DaA3t3GZJQ="
 											},
 											"edgePosition": 1,
-											"text": "1 : sélection du module \"frigo\""
+											"text": "1 : select of \"fridge research\""
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1371,7 +1371,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75DFA2d1Q2VI="
 							},
-							"name": "sélection du module \"frigo\"",
+							"name": "select of \"fridge research\"",
 							"source": {
 								"$ref": "AAAAAAF75DPged1gIPg="
 							},
