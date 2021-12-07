@@ -29,12 +29,12 @@ insert into `user_rights` (name_user_rights) values
 ("administrator"),
 ("user");
 
-insert into `user` (name_user, first_name_user, pseudo_user, pswd_user) values
-("bibi","lolo","lo","1234"),
-("riri","duck","ri","456456"),
-("fifi","canard","fifi","85285"),
-("loulou","duckyducky","lou","7899"),
-("zaza","pepette","zaza","4564");
+insert into `user` (name_user, first_name_user, email_user, pseudo_user, pswd_user) values
+("bibi","lolo","lo", "email@factice.fr","1234"),
+("riri","duck","ri","email@factice2.fr","456456"),
+("fifi","canard","fifi","email@factice3.fr","85285"),
+("loulou","duckyducky","lou","email@factice4.fr","7899"),
+("zaza","pepette","zaza","email@factice.fr","4564");
 
 insert into `recipe_page` (name_recipe_page,  url_recipe_page, date_recipe_page, subject_recipe_page) values
 ("pain d'épice","https://www.delscookingtwist.com/fr/pain-depices-tres-moelleux/#tasty-recipes-23302-jump-target","2021-10-01","dessert"), 

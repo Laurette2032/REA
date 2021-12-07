@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>connexion</title>
-    <link rel="stylesheet" href="../Version 1/MPC_CSS_connexion.css">
+    <link rel="stylesheet" href="MPC_CSS connexion.css">
+    <script src="https://unpkg.com/vue@next" defer></script>  
+    <script src="appvuejsform.js" defer ></script>
+    
+
 </head>
 
 <!-- header + banner-->
@@ -15,8 +19,8 @@
     <h1>Connexion</h1>
 
 
-    <section>
-    <form method="POST" action="form.php">
+    <section id="form">
+    <form v-on: submit.prevent = "popup" method="POST" action="form.php">
         <div>
             <label for="mail">Email<span class="star">*<span class="onstar"></span></span></label>
             <input type="email" name="mail" id="mail" required placeholder="votreadressemail@mail.com">
@@ -34,6 +38,8 @@
             <label for="star">* ce champ est obligatoire</label>
         </div>
     </section>
+
+  
 
 </body>
 

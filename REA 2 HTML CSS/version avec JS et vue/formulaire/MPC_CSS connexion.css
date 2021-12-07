@@ -1,0 +1,33 @@
+body{
+
+    background-color: rgb(241, 245, 246);
+
+}
+h1{
+    top:0px; 
+    text-align: center;
+    justify-content: center;
+    font-size:15px ;
+    color: navy;
+}
+
+.star{
+
+    color: crimson;
+
+}
+
+section{
+
+    padding: 15px;
+    
+}
+
+div{
+
+    text-align: center;
+    justify-content: center;
+    font-size:15px ;
+    color: navy;
+}
+
