@@ -1,5 +1,5 @@
-create database `mpc_db`;
-use mpc_db;
+create database `mpc_secure`;
+use mpc_secure;
 
 create table `user`(
 id_user int (20) auto_increment primary key, 

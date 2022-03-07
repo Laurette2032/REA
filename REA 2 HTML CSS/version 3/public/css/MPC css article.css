@@ -1,0 +1,56 @@
+body{
+
+    background-color: rgb(241, 245, 246);
+    font-family: fantasy;
+
+}
+
+
+
+h1{
+
+    text-align: center;
+    justify-content: center;
+    font-size:15px ;
+    color: navy;
+    text-shadow: rgb(144, 148, 216);
+
+}
+section {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.recette {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+}
+
+.recette>div>img{
+    padding: 20px;
+    height: 150px;
+    width: 200px;    
+}
+
+#grilleboutton{
+    display: flex;
+    justify-content:right;
+    
+}
+
+.boutton{
+
+    background-color: cornflowerblue;
+    border: darkblue solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    
+
+
+    
+}
+
